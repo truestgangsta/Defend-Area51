@@ -13,6 +13,6 @@ public class sliderevent : MonoBehaviour
     }
     public void setSound(float sound)
     {
-        audioMixer.SetFloat("music", sound);
+        audioMixer.SetFloat("sound", sound);
     }
 }
